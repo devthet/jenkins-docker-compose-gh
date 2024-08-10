@@ -1,5 +1,5 @@
 pipeline{
-    agent any
+    agent windows-agent
     stages{
         stage("Verify tools for docker compose"){
             steps{
