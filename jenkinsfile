@@ -1,7 +1,7 @@
 pipeline{
     agent:any
     stages{
-        stage("Verify tools"){
+        stage("Verify tools for docker compose"){
             steps{
                 sh '''
                     docker version
